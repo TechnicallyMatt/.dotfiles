@@ -5,23 +5,13 @@
 export ZSH="/Users/matt.coleman/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-ZSH_THEME='simple'
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+ZSH_THEME='random'
+ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "simple")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
@@ -81,7 +71,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(pyenv init -)"
 
 # Source nix-env programs for package management
-. /Users/matt.coleman/.nix-profile/etc/profile.d/nix.sh
+. $HOME/.nix-profile/etc/profile.d/nix.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
