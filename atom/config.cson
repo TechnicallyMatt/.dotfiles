@@ -1,0 +1,34 @@
+"*":
+  core:
+    disabledPackages: [
+      "background-tips"
+      "linter-scalac"
+      "autocomplete-plus"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "dash-ui"
+      "dash-syntax"
+    ]
+  editor:
+    fontFamily: "Bedstead"
+    fontSize: 19
+    preferredLineLength: 120
+  "exception-reporting":
+    userId: "f3bb526c-bf40-4152-bcde-14591e6f5c02"
+  "linter-pycodestyle":
+    ignoreErrorCodes: [
+      "E203"
+      "W503"
+    ]
+    maxLineLength: 120
+  "linter-ui-default": {}
+  minimap:
+    absoluteMode: true
+  "one-dark-ui": {}
+  "python-black":
+    lineLength: 120
+    skipStringNormalization: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
