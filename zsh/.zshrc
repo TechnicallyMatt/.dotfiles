@@ -5,7 +5,7 @@
 export ZSH="/Users/matt.coleman/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-ZSH_THEME='random'
+ZSH_THEME='simple'
 ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "simple")
 
 # Uncomment the following line to use case-sensitive completion.
